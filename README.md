@@ -1,35 +1,53 @@
-[![Runbot Status](https://runbot.odoo-community.org/runbot/badge/flat/173/11.0.svg)](https://runbot.odoo-community.org/runbot/repo/github-com-oca-bank-payment-173)
-[![Build Status](https://travis-ci.org/OCA/bank-payment.svg?branch=11.0)](https://travis-ci.org/OCA/bank-payment)
-[![Coverage Status](https://coveralls.io/repos/OCA/bank-payment/badge.png?branch=11.0)](https://coveralls.io/r/OCA/bank-payment?branch=11.0)
+# odoo-12
+Odoo 12 Localización chilena
 
-OCA banking payment addons for Odoo
-===================================
+## Credits
+<p>
+<img width="200" alt="Logo Intellego-BI" src="https://i2.wp.com/intellego-bi.com/ws/wp-content/uploads/2016/05/Intellego-BI-112x35.jpg" />
+</p>
 
-On version 11.0, this project focus on payment interface. The indentation below 
-indicates the dependency graph of the main modules.
-
--  `account_payment_order` - Basic export functionality of payment orders
-
-    - `account_banking_sepa_credit_transfer` - Export of payment orders in SEPA format
-
-    - `account_direct_debit` - Debit order infrastructure analogous to Odoo native payment orders
-
-        - `account_banking_sepa_direct_debit` - Export of debit orders in SEPA format
-        
-Other features can now be found in these repositories:
-
- * https://github.com/OCA/bank-statement-import
- * https://github.com/OCA/bank-statement-reconcile
+**Intellego-BI.com** - https://intellego-bi.com
+ - Rodolfo Bermúdez Neubauer <odoo@intellego-bi.com>
 
 
-Contributing
-------------
-Do you want to contribute? Please read our [contributing guidelines](https://github.com/OCA/maintainer-tools/blob/master/CONTRIBUTING.md).
+**Features list: Chilean Localization**
 
-----
+    * Chart of Accounts
+    * Currency Rate Inverted (for CLP)
+    * Currency Rate update from SBIF (UF, UTM, USD and EUR for CLP)
+    * Payroll for Chilean localization.
 
-OCA, or the Odoo Community Association, is a nonprofit organization whose 
-mission is to support the collaborative development of Odoo features and 
-promote its widespread use.
+**To-Do Features list: Chilean Localization**
 
-http://odoo-community.org/
+    * Electronic Bank Statements for chilean banks
+    * Generate Bulk Outgoing payment flat files for chilean banks
+    * Electronic Invoicing and EDI with SII (Factura Electrónica)
+    * Fixed Assets accounting
+    * Automate monthly Previred indicators update 
+
+
+**Features list: Generic for Odoo 12**
+
+    * Partner required per account group setting (customer and vendor type accounts)
+    * Analytic Account from Employee Contract
+    * Working (shift) Schedule on Employee Contract (Work in progress)
+    * Icon to easily export any Odoo list to MS Excel 
+
+
+
+## Thanks to
+ 
+ **Odoo Community Association (OCA)** https://odoo-community.org <br>
+ **konos.cl** - http://konos.cl <br>
+ **globalresponse.cl** http://globalresponse.cl <br>
+ **blancomartin.com** http://blancomartin.com
+
+
+ **Superestrellas Localización Chilena**
+ - Daniel Blanco Martín <daniel@blancomartin.com>
+ - Nelson Ramírez <info@konos.cl>
+ - Carlos Lopez Mite <celm1990@hotmail.com>
+ - Daniel Santibáñez Polanco <dsantibanez@globalresponse.cl>
+ - Francisco Lorca <fcolorca1979@gmail.com>
+ - Marcel Rodriguez <jmrv1981@hotmail.com>
+ - ¿Quién dijo "yo"?
