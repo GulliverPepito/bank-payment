@@ -10,7 +10,7 @@
     'summary': "Adds a menu entry for Account Types",
     'author': "Akretion, Odoo Community Association (OCA)",
     'website': 'https://github.com/OCA/account-financial-tools',
-    'depends': ['account'],
+    'depends': ['account', 'l10n_cl_odoo12'],
     'data': ['views/account_type.xml'],
     'installable': True,
 }
